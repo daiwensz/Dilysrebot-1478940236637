@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Dilysrebot
+  host: Dilysrebot
+  disk_quota: 1024M
+  services:
+  - Conversation-7x
+  - Speech to Text-5e
+  - Text to Speech-yb
